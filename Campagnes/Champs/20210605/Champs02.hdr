@@ -1,0 +1,193 @@
+[C:\Users\g.calabro-souza\Documents\Doctorat\Spring Campaign 2021\Lake Champs\20210605\Champs02.vec]
+---------------------------------------------------------------------
+Number of measurements                27861
+Number of velocity checksum errors    2
+Number of sensor checksum errors      0
+Number of data gaps                   0
+Time of first measurement             05/06/2021 13:10:58
+Time of last measurement              05/06/2021 14:10:26
+
+User setup
+---------------------------------------------------------------------
+Sampling rate                         8 Hz
+Nominal velocity range                0.10 m/s
+Burst interval                        CONTINUOUS
+Samples per burst                     N/A
+Sampling volume                       14.9 mm
+Measurement load                       82 %
+Transmit length                       4.0 mm
+Receive length                        0.01 m
+Output sync                           VECTOR
+Analog output                         DISABLED
+Analog input 1                        NONE
+Analog input 2                        NONE
+Power output                          DISABLED
+Output format                         VECTOR
+Velocity scaling                      0.1 mm
+Powerlevel                            LOW+
+Coordinate system                     XYZ
+Sound speed                           MEASURED
+Salinity                              35.0 ppt
+Distance between pings                1.01 m
+Number of beams                       3
+Software version                      1.35
+Deployment name                       champs
+Wrap mode                             OFF
+Deployment time                       05/06/2021 13:10:40
+Comments                              
+System1                               2
+System2                               16
+System3                               7
+System4                               44
+System5                               512
+System9                               194
+System10                              0
+System11                              0
+System12                              0
+System13                              0
+System14                              1
+System16                              1
+System17                              7
+System22                              10800
+System28                              1
+System29                              1
+System30                              20
+System31                              15618 15646 15673 15699
+System32                              2000
+System33                              32768
+System34                              16384
+System35                              0
+System36                              0
+System37                              0
+System38                              300
+System39                              0
+System40                              0
+System41                              16
+System42                              11185
+System43                              0
+System44                              0
+System45                              2
+Start command                         Serial output with recorder
+CRC download                          ON
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         VEC 8205
+Hardware revision                     E
+Recorder size                         185 MByte
+Firmware version                      3.36
+Power output                          12V
+
+Head configuration
+---------------------------------------------------------------------
+Pressure sensor                       YES
+Compass                               YES
+Tilt sensor                           YES
+System 1                              0
+Head frequency                        6000 kHz
+Serial number                         VEC 4926
+Transformation matrix                 2.6941 -1.3020 -1.3945
+                                      0.0569 2.2854 -2.3315
+                                      0.3474 0.3306 0.3540
+Pressure sensor calibration           0 0 11756 9074
+Number of beams                       3
+System5                               0 0 0 0
+System7                               -10810 -317 9042 -77
+                                      -10999 260 9155 -276
+System8                               0 0 -1
+                                      0 -1 0
+                                      -1 0 0
+System9                               0 0 -1
+                                      0 1 0
+                                      1 0 0
+System10                              0 -1 -1 0
+System11                              0 -1 1 0
+System13                              1481 259 7128 10849
+System14                              -20975 -1262 12055 99
+                                      -19941 1078 11973 -366
+System15                              32767 377 562 377
+                                      31308 219 425 -580
+                                      31267 -7 -1 -1
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              5279
+System18                              3600
+System19                              3600
+System20                              10000
+
+Data file format
+---------------------------------------------------------------------
+[C:\Users\g.calabro-souza\Documents\Doctorat\Spring Campaign 2021\Lake Champs\20210605\Champs02.vhd]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Burst counter
+ 8   No of velocity samples
+ 9   Noise amplitude (Beam1)          (counts)
+10   Noise amplitude (Beam2)          (counts)
+11   Noise amplitude (Beam3)          (counts)
+12   Noise correlation (Beam1)        (%)
+13   Noise correlation (Beam2)        (%)
+14   Noise correlation (Beam3)        (%)
+15   Dist from probe - start (Beam1)  (counts)
+16   Dist from probe - start (Beam2)  (counts)
+17   Dist from probe - start (Beam3)  (counts)
+18   Dist from probe - start (Avg)    (mm)
+19   Dist from s.vol - start (Avg)    (mm)
+20   Dist from probe - end (Beam1)    (counts)
+21   Dist from probe - end (Beam2)    (counts)
+22   Dist from probe - end (Beam3)    (counts)
+23   Dist from probe - end (Avg)      (mm)
+24   Dist from s.vol - end (Avg)      (mm)
+
+---------------------------------------------------------------------
+[C:\Users\g.calabro-souza\Documents\Doctorat\Spring Campaign 2021\Lake Champs\20210605\Champs02.dat]
+ 1   Burst counter
+ 2   Ensemble counter                 (1-65536)
+ 3   Velocity (Beam1|X|East)          (m/s)
+ 4   Velocity (Beam2|Y|North)         (m/s)
+ 5   Velocity (Beam3|Z|Up)            (m/s)
+ 6   Amplitude (Beam1)                (counts)
+ 7   Amplitude (Beam2)                (counts)
+ 8   Amplitude (Beam3)                (counts)
+ 9   SNR (Beam1)                      (dB)
+10   SNR (Beam2)                      (dB)
+11   SNR (Beam3)                      (dB)
+12   Correlation (Beam1)              (%)
+13   Correlation (Beam2)              (%)
+14   Correlation (Beam3)              (%)
+15   Pressure                         (dbar)
+16   Analog input 1
+17   Analog input 2
+18   Checksum                         (1=failed)
+
+---------------------------------------------------------------------
+[C:\Users\g.calabro-souza\Documents\Doctorat\Spring Campaign 2021\Lake Champs\20210605\Champs02.sen]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Error code
+ 8   Status code
+ 9   Battery voltage                  (V)
+10   Soundspeed                       (m/s)
+11   Heading                          (degrees)
+12   Pitch                            (degrees)
+13   Roll                             (degrees)
+14   Temperature                      (degrees C)
+15   Analog input
+16   Checksum                         (1=failed)
+
+---------------------------------------------------------------------
+[C:\Users\g.calabro-souza\Documents\Doctorat\Spring Campaign 2021\Lake Champs\20210605\Champs02.pck]
+ 1   Sample                           
+ 2   Distance                         (mm)
+ 3   Amplitude Beam 1                 (counts)
+ 4   Amplitude Beam 2                 (counts)
+ 5   Amplitude Beam 3                 (counts)
+ 6   Amplitude Beam 4                 (counts)
